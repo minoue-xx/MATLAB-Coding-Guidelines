@@ -150,7 +150,7 @@ Rule violations are (or will be) detectable by the MATLAB Code Analyzer. The Cod
 
 The MATLAB Code Analyzer can detect violations for a subset of the Rules listed in this document. Note that some versions of MATLAB may not be able to detect violations for all of the rules. When the Code Analyzer detects a Rule violation, it identifies the issue in both the MATLAB Editor and the Code Analyzer Report. Beginning in R2025a, violations in the Editor are indicated on the right-hand side of the Editor panel as shown in the following screenshot.
 
-<img src="file:///C:/Users/dgarriso/Desktop/temp/Editor%20Checks.png" title="" alt="" width="356">
+<img src="https://github.com/dgarriso/test/images/Editor%20Checks.png" title="" alt="" width="356">
 
 This guidelines document is accompanied by a `codeAnalyzerConfiguration.json` file which implements the checks for the set of Rule violations that can be detected. 
 
