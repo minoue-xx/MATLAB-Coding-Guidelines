@@ -1,0 +1,119 @@
+{
+    "name": "MATLAB Coding Guidelines",
+    "description": "Configuration for code analysis based on MATLAB coding guidelines",
+    "author" :"Mathworks",
+    "guidelineVersion": "1.0.0",
+    "schemaVersion" : "1.1.0",
+    
+    "baseConfiguration" : "factory",
+    "checks" : {
+        "MNCSN": {
+            "limit": 5,
+            "enabled": true
+        },
+        "LLMNC": {
+            "limit": 120,
+            "enabled": true
+        },
+        "FCNIL": {
+            "limit": 6,
+            "enabled": true
+        },
+        "FCNOL": {
+            "limit": 4,
+            "enabled": true
+        },
+        // The following checks are disabled by default, but can be enabled
+        "DAFPV": {
+            "enabled": false
+        },
+        "DAFCVC": {
+            "enabled": false
+        },
+        "DAFCF": {
+            "enabled": false
+        },
+        "DAFCO": {
+            "enabled": false
+        },
+        "DAFBR": {
+            "enabled": false
+        },
+        "DAFRT": {
+            "enabled": false
+        },
+        "DAFNF": {
+            "enabled": false
+        },
+        "DAFVI" : {
+            "enabled": false
+        },
+        "CTCH" : {
+            "enabled": false
+        },
+        "disallow.eval": { // Name of this check can be changed.
+            "rule" : {
+                "template" : "functionCall",
+                "functionNames" : "eval"
+            },
+            "enabled": false
+        },
+        "disallow.workspace": {
+            "rule" : {
+                "template" : "functionCall",
+                "functionNames" : ["evalin", "assignin"]
+            },
+            "enabled": false
+        },
+        "disallow.pathFunction": {
+            "rule" : {
+                "template" : "functionCall",
+                "functionNames" : ["cd", "addpath", "rmpath"]
+            },
+            "enabled": false
+        },
+        "disallow.throwAsCaller": {
+            "rule" : {
+                "template" : "functionCall",
+                "functionNames" : "throwAsCaller"
+            },
+            "enabled": false
+        }
+    },
+    "naming" : {
+        "variable": {
+            "maxLength" : 32, // naming.variable.maxLength
+            "regularExpression" : "(^[a-z][a-zA-Z0-9]*$)|(^[A-Z][a-z0-9]*$)" // naming.variable.regularExpression
+        },
+        "class": {
+            "maxLength" : 32 // naming.class.maxLength
+        },
+        "function": {
+            "maxLength" : 32, // naming.function.maxLength
+            "casing":  ["lowerCamelCase", "lowercase"] // naming.function.casing
+        },
+        "localFunction": {
+            "maxLength" : 32, // naming.localFunction.maxLength
+            "casing": ["lowerCamelCase", "lowercase"] // naming.localFunction.casing
+        },
+        "nestedFunction": {
+            "maxLength" : 32, // naming.nestedFunction.maxLength
+            "casing":  ["lowerCamelCase", "lowercase"] // naming.nestedFunction.casing
+        },
+        "method": {
+            "maxLength" : 32, // naming.method.maxLength
+            "casing":  ["lowerCamelCase", "lowercase"] // naming.method.casing
+        },
+        "property": {
+            "maxLength" : 32, // naming.property.maxLength
+            "casing": "UpperCamelCase" // naming.property.casing
+        },
+        "event": {
+            "maxLength" : 32, // naming.event.maxLength
+            "casing": "UpperCamelCase" // naming.event.casing
+        },
+        "enumeration": {
+            "maxLength" : 32 // naming.enumeration.maxLength
+        }
+    }
+}
