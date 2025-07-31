@@ -10,7 +10,7 @@ Each folder in this repo contains a version of the coding guidelines. Download t
 
 | **Use guidelines version** | **With MATLAB version** |
 | -------------------------- | ----------------------- |
-| [Version 1.0](version%201.0/MATLAB%20Coding%20Guidelines.md)| R2025a and higher       |
+| [Version 1.0](version%201.0)| R2025a and higher       |
 
 The contents of each folder is as follows.
 
