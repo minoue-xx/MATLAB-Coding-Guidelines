@@ -10,7 +10,7 @@ Each folder in this repo contains a version of the coding guidelines. Download t
 
 | **Use guidelines version** | **With MATLAB version** |
 | -------------------------- | ----------------------- |
-| [Version 1.0](version%201.0)| R2025a and higher       |
+| [Version 1.0]([version%201.0](https://github.com/mathworks/MATLAB-Coding-Guidelines/releases/tag/v1.0.0))| R2025a and higher       |
 
 The contents of each folder is as follows.
 
@@ -22,3 +22,4 @@ The contents of each folder is as follows.
 The guidelines are expected to evolve over time driven by feedback from the MATLAB community. We encourage your feedback and suggestions for future revisions. Feel free to open an issue or post to the discussions. Your insights and feedback help us improve this document and make it even more useful for the community.
 
 You may use the guidelines document and the related codeAnalyzerConfiguration.json file as a starting point to create your own local guidelines to meet the specific needs of your organization.
+
