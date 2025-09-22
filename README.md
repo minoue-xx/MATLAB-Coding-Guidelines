@@ -1,26 +1,27 @@
 # MATLAB Coding Guidelines
 
-This repository contains a set of recommended MATLAB Coding Guidelines. These guidelines have been developed primarily for large organizations or teams of MATLAB developers who want to introduce some degree of regularity and consistency in their MATLAB code bases. Use of the guidelines is optional.
+このリポジトリには、推奨される MATLAB コーディングガイドラインが含まれています。これらのガイドラインは、MATLAB のコードベースに一定の規則性と一貫性を導入したいと考える、大規模な組織や MATLAB 開発チーム向けに主に作成されたものです。ガイドラインの使用は任意です。
 
-The guidelines contain Rules and Best Practices. _Rules_ must be followed in order to comply with the guidelines. Rule violations are detected by the MATLAB Code Analyzer and identified in the MATLAB Editor and in the Code Analyzer report. Each version of the guidelines is accompanied by a `codeAnalyzerConfiguration.json` file which contains the checks used by the Code Analyzer to detect Rule violations.
+このガイドラインには、「Rules」と「Best Practices」が含まれています。_Rules_ は、ガイドラインに準拠するために必ず守らなければならない項目です。ルール違反は MATLAB のコードアナライザーによって検出され、MATLAB エディターおよびコードアナライザーのレポートで識別されます。各バージョンのガイドラインには、ルール違反を検出するためのチェックが含まれた `codeAnalyzerConfiguration.json` ファイルが付属しています。
 
-_Best Practices_ are guidelines that contain recommendations for improving the quality of your MATLAB code. Following them is optional. Some Best Practices can (optionally) be detected as Rules by enabling a check in the Code Analyzer. The introductory material in the guidelines document explains Rules and Best Practices in more detail.
+_Best Practices_ は、MATLAB コードの品質向上を目的とした推奨事項です。これらは任意であり、必ずしも従う必要はありません。一部のベストプラクティスは、コードアナライザーでチェックを有効にすることで、ルールとして検出することも可能です。ガイドライン文書の導入部分では、ルールとベストプラクティスの違いについて詳しく説明されています。
 
-Each folder in this repo contains a version of the coding guidelines. Download the latest version of the guidelines that corresponds to your version of MATLAB as indicated in the following table.
+このリポジトリ内の各フォルダーには、コーディングガイドラインのバージョンが含まれています。以下の表に示された MATLAB のバージョンに対応する、最新のガイドラインをダウンロードしてください。
+
 
 | **Use guidelines version** | **With MATLAB version** |
 | -------------------------- | ----------------------- |
 | [Version 1.0](https://github.com/mathworks/MATLAB-Coding-Guidelines/releases/tag/v1.0.0)| R2025a and higher       |
 
-The contents of each folder is as follows.
+各フォルダーの内容は以下の通りです：
 
 - codeAnalyzerConfiguration.json
 - MATLAB Coding Guidelines.md
+- MATLAB Coding Guidelines_jp.md
 - MATLAB Coding Guidelines.pdf
 - RevisionHistory.txt
 
-The guidelines are expected to evolve over time driven by feedback from the MATLAB community. We encourage your feedback and suggestions for future revisions. Feel free to open an issue or post to the discussions. Your insights and feedback help us improve this document and make it even more useful for the community.
+このガイドラインは、MATLAB コミュニティからのフィードバックによって、今後も進化していくことが期待されています。今後の改訂に向けて、皆様からのご意見や提案を歓迎します。Issue を立てたり、ディスカッションに投稿したり、自由にご参加ください。皆様の洞察とフィードバックは、このドキュメントの改善と、コミュニティにとってより有益なものにするための助けとなります。
 
-You may use the guidelines document and the related codeAnalyzerConfiguration.json file as a starting point to create your own local guidelines to meet the specific needs of your organization.
-
+このガイドライン文書および関連する codeAnalyzerConfiguration.json ファイルは、組織の特定のニーズに合わせた独自のローカルガイドラインを作成するための出発点として使用することができます。
 
