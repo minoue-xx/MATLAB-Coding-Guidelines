@@ -1,4 +1,12 @@
+# はじめに
+
+こちらは [GitHub:mathworks](https://github.com/mathworks/MATLAB-Coding-Guidelines) に
+公開されている MATLAB Coding Guidelines (Version 1.0.0) を参考に作成した日本語訳です。
+内容の正確性には配慮しておりますが、あくまで参考情報としてご利用ください。
+正式かつ最新の情報については、必ず英語版の MATLAB Coding Guidelines をご参照ください。
+
 # MATLAB Coding Guidelines
+
 
 このリポジトリには、推奨される MATLAB コーディングガイドラインが含まれています。これらのガイドラインは、MATLAB のコードベースに一定の規則性と一貫性を導入したいと考える、大規模な組織や MATLAB 開発チーム向けに主に作成されたものです。ガイドラインの使用は任意です。
 
